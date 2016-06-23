@@ -1,0 +1,45 @@
+
+* {-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          border: 1px solid #6AC5AC;}
+
+
+.navbar_ul_links {
+	list-style: none;
+	padding: 0%;
+}
+.navbar_li_links {
+ display: inline;
+}
+
+
+.sidebar_content{display: inline-block;
+  background-color: grey;
+width: 17%;
+vertical-align: top;
+
+
+}
+
+.maincontent_div {
+display: inline-block;
+background-color: red;
+height: 700px;
+width: 77%;
+vertical-align: top;
+}
+
+
+.sidebar_linklist{
+	list-style: none;
+	padding: 0px;
+}
+
+
+.sidebar_title {
+	margin: 0px;
+}
+
+
+
