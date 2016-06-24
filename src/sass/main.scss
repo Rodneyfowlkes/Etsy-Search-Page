@@ -41,23 +41,40 @@ vertical-align: top;
 	margin: 0px;
 }
 
-.test_img_div {
+.img_div {
 	width: 210px;
     height: 163px;
 }
-.grid_point1 {
 
+.items_img {
+	width: 210px;
+    height: 163px;
+}
+.grid_point {
+    display: inline-block;
 	width: 213px;
 	height: 205px;
 	background-color: #FFFFFF;
 	font-size: 65%;
+	margin-right: 2%;
+	margin-left: 1.5%;
 }
 // .image_foot_div {
 // 	position: relative;
 // }
 .title_div{
-	
+	overflow: hidden;
+	text-overflow: ellipsis;
 	font-family: 'News Cycle', sans-serif;
+	a { 
+		width: 207px;
+		text-decoration: none;
+	   color: black;
+     
+       white-space: nowrap;
+      
+
+	}
 }
 .shopname_price_div{
 	position: relative;
