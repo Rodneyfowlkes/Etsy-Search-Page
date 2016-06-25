@@ -8,7 +8,7 @@ import {items} from "./staritems.js";
 
 items.results.forEach(function(x){
 
-	
+
 console.log("COW");
 var price = x.price;
 
@@ -18,7 +18,7 @@ var shopname = x.Shop.shop_name;
 var shop_url = x.Shop.url;
 var currency;
 if ( x.currency_code == "USD") {currency = "\x24";}
-	else if (x.currency_code == "EUR"){currency = "\x80";}
+	else if (x.currency_code == "EUR"){currency = "&euro;";}
 	else if (x.currency_code == "GBP"){currency = "\xA3";}
 var image;
 
