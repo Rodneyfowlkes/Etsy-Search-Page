@@ -130,6 +130,9 @@ width: 27%;
 
 .navbar_header{
 	background-color: #FFFFFF;
+    height: 35px;
+    border-bottom: 2px solid lightgrey;
+    
 }
 
 
@@ -137,12 +140,17 @@ width: 27%;
 	list-style: none;
 	padding: 0%;
     background-color: #FFFFFF;	
+    font-size: 75%;
+    margin-left: 2%;
+    margin-top: 9px;
 
 }
 .navbar_li_links {
  display: inline;	
  background-color: #FFFFFF;
- a { text-decoration: none;}
+ margin-right: .8%;
+
+ a { text-decoration: none;color: #838383;}
 }
 
 
