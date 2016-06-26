@@ -6,6 +6,10 @@ import {items} from "./staritems.js";
 // The items maker "Shop"--"shop_name"
 // The items price and currency "price" "currency_code"
 
+console.log(items.count);
+var count = Number(items.count).toLocaleString('en'); 
+$(".number_results").append(`(${count}) results`);
+
 items.results.forEach(function(x){
 
 
