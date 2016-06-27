@@ -172,7 +172,7 @@ width: 27%;
 .sidebar_title {
 	font-size: 65%;
     	margin: 0px;
-    
+    font-weight: bold;
     a {text-decoration: none;}
 }
 
@@ -195,6 +195,7 @@ border: solid 1px #DADBD7;
       margin: 2.8% 0% 0% 6%;
       font-size: 67%;
       padding-top: 8%;
+      font-weight: bold;
        }
 }
 
@@ -214,7 +215,12 @@ border: solid 1px #DADBD7;
 	text-decoration:none;
 	margin-left: 9px;
 	color: #7BC6D7;
+
 }
+.search_item {
+	font-weight: bold;
+}
+
 
 .maincontent_div {
 display: inline-block;
@@ -229,6 +235,7 @@ vertical-align: top;
 	font-size: 68%;
 margin-bottom: .8%;
 }
+
 
 .triangle::after {
 	margin-top:5px;
@@ -291,7 +298,6 @@ border-color: #989ca1 transparent transparent transparent;
 	text-overflow: ellipsis;
 	font-family: 'Alegreya Sans', sans-serif;
 	background-color: white;
-	font-weight:
 	a { 
 		margin-left: 3px;
 		width: 207px;
@@ -331,6 +337,7 @@ a { position: absolute;
 }
 
 .Footer_div {
+	margin-left:20%;
 
 }
 
